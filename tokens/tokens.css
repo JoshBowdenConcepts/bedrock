@@ -1,0 +1,22 @@
+
+/* Light mode */
+[data-colormode="light"] {
+--color-primary-light-light: #FF0000;
+--color-primary-dark-light: #FFFFFF;
+--color-secondary-light-light: #00FF00;
+--color-secondary-dark-light: #CCCCCC;
+--fontSize-light-light: 16px;
+--fontSize-dark-light: 18px;
+--fontFamily-light: Arial, sans-serif;
+}
+
+/* Dark mode */
+[data-colormode="dark"] {
+--color-primary-light-dark: #FF0000;
+--color-primary-dark-dark: #FFFFFF;
+--color-secondary-light-dark: #00FF00;
+--color-secondary-dark-dark: #CCCCCC;
+--fontSize-light-dark: 16px;
+--fontSize-dark-dark: 18px;
+--fontFamily-dark: Arial, sans-serif;
+}

@@ -1,0 +1,18 @@
+{
+  "name": "bedrock",
+  "version": "1.0.0",
+  "description": "This is a project to test out new design system ideas.",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JoshBowdenConcepts/bedrock.git"
+  },
+  "author": "Josh Bowden",
+  "license": "UNLICENSED",
+  "bugs": {
+    "url": "https://github.com/JoshBowdenConcepts/bedrock/issues"
+  },
+  "homepage": "https://github.com/JoshBowdenConcepts/bedrock#readme"
+}

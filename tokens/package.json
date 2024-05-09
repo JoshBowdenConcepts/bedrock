@@ -1,0 +1,21 @@
+{
+  "name": "@tock/tokens",
+  "version": "1.0.0",
+  "repository": "git@github.com:tocktix/admin.git",
+  "author": "Tock Eng <eng@tockhq.com>",
+  "private": true,
+  "main": "./dist/index.ts",
+  "scripts": {
+    "build": "npx ts-node index.ts",
+    "start": "npx ts-node index.ts",
+    "postinstall": "pnpm build"
+  },
+  "devDependencies": {
+    "ts-node": "^10.9.1",
+    "typescript": "^5.3.3"
+  },
+  "peerDependencies": {
+    "react": "^17.0.0 || ^18.0.0",
+    "react-dom": "^17.0.0 || ^18.0.0"
+  }
+}
