@@ -1,0 +1,12 @@
+{
+	"compilerOptions": {
+		"esModuleInterop": true,
+		"allowSyntheticDefaultImports": true,
+		"module": "CommonJS",
+		"outDir": "./dist",
+		"declaration": true,
+		"sourceMap": true
+	},
+	"include": ["index.ts"],
+	"exclude": ["dist", "node_modules", "**/*.spec.ts", "**/*.spec.tsx"]
+}

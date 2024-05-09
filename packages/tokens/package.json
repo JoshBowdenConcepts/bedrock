@@ -1,11 +1,10 @@
 {
-  "name": "@tock/tokens",
+  "name": "tokens",
   "version": "1.0.0",
-  "repository": "git@github.com:tocktix/admin.git",
-  "author": "Tock Eng <eng@tockhq.com>",
-  "private": true,
-  "main": "./dist/index.ts",
+  "author": "Josh Bowden",
+  "main": "./dist/index.js",
   "scripts": {
+	"build:theme": "rm -rf dist && tsc",
     "build": "npx ts-node index.ts",
     "start": "npx ts-node index.ts",
     "postinstall": "pnpm build"
