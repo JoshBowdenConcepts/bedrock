@@ -1,3 +1,6 @@
-export * from './themes/Bento'
-export * from './themes/Omakase'
+export const bento = {
+	color: {
+		primary: 'blue'
+	}
+}
 

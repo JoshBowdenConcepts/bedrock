@@ -4,7 +4,7 @@
   "description": "This is a project to test out new design system ideas.",
   "scripts": {
     "build": "pnpm run -r build",
-	"dev": "pnpm run -r dev",
+	"dev": "pnpm run --filter tokens build:theme && pnpm run --filter components build && pnpm run --filter public dev",
 	"theme": "pnpm run -r build:theme"
   },
   "repository": {

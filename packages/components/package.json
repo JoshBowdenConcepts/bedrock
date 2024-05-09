@@ -7,9 +7,9 @@
     "build": "rm -rf dist && tsc"
   },
   "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "author": "Josh Bowden",
   "devDependencies": {
+    "@types/react": "^18",
     "typescript": "^5"
   },
   "dependencies": {
