@@ -5,7 +5,10 @@
 		"module": "CommonJS",
 		"outDir": "./dist",
 		"declaration": true,
-		"sourceMap": true
+		"sourceMap": true,
+		"types": [
+			"node"
+		]
 	},
 	"include": ["index.ts"],
 	"exclude": ["dist", "node_modules", "**/*.spec.ts", "**/*.spec.tsx"]

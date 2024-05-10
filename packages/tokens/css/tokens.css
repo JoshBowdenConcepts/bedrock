@@ -1,0 +1,27 @@
+
+/* General CSS - Not Color Mode Specific */
+:root {
+  --spacing-spacing100: 2px;
+  --spacing-spacing200: 4px;
+  --spacing-spacing400: 8px;
+  --spacing-spacing600: 12px;
+  --spacing-spacing800: 16px;
+  --spacing-spacing1200: 24px;
+  --spacing-spacing1600: 32px;
+  --spacing-spacing2000: 40px;
+  --spacing-spacing2400: 48px;
+}
+
+/* Light mode */
+[data-colormode="light"] {
+  --color-primary: #FFFFFF;
+  --color-secondary: #FFFFFF;
+  --color-tertiary: #FFFFFF;
+}
+
+/* Dark mode */
+[data-colormode="dark"] {
+  --color-primary: #000000;
+  --color-secondary: #000000;
+  --color-tertiary: #000000;
+}
