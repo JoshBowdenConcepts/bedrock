@@ -1,14 +1,12 @@
-import { ColorByMode } from '../../../ThemeType';
+import { LevelColorByMode } from '../../../ThemeType';
 import { raw } from '../raw_colors';
 
 export type PrimitiveColors = {
-	primary: ColorByMode;
-	secondary: ColorByMode;
-	tertiary: ColorByMode;
+	primary: LevelColorByMode;
+	gray: LevelColorByMode
 };
 
 export const color: PrimitiveColors = {
-  primary: raw.blue,
-  secondary: raw.red,
-  tertiary: raw.green,
+  primary: {...raw.blue},
+  gray: {...raw.gray}
 };

@@ -1,2 +1,2 @@
 "use client"
-export * from './src/Button'
+export * from './src/Button/Button'
