@@ -7,7 +7,7 @@ This is the general type for Tock's themes.
 All properties are required here by design.
 If you want to add a property here please work with the design-systems team as it will affect all theme objects.
 */
-type ThemeObject = {
+export type ThemeObject = {
 	// Primitives are not exported because they should be private
 	color: Required<PrimitiveColors>;
 	spacing: Required<PrimitiveSpacing>;

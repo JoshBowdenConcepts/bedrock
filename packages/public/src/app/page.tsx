@@ -1,6 +1,7 @@
 "use client"
 import { Button } from "components";
 import 'tokens/css/tokens.css'
+import './index.css'
 import { ThemeProvider, css, Theme } from '@emotion/react'
 import { bento } from 'tokens'
 
@@ -24,7 +25,10 @@ function SomeText({children}: React.HTMLAttributes<HTMLParagraphElement>) {
 export default function Home() {
   return (
 	<ThemeProvider theme={theme}>
-		<main data-colormode="light" css={{background: 'var(--color-gray-100)',}}>
+		<main data-colormode="light" css={{
+			background: 'var(--color-gray-100)',
+			height: '100vh'
+		}}>
 			<Button>Hello</Button>
 			<SomeText>some text</SomeText>
 		</main>

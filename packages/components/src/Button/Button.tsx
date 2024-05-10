@@ -8,8 +8,8 @@ export const Button = ({...rest}: React.HTMLAttributes<HTMLButtonElement>) => {
 	}, [])
 	return <button style={{
 		padding: 'var(--spacing-spacing400) var(--spacing-spacing800)',
-		background: 'var(--color-primary-200)',
-		color: 'var(--color-primary-500)',
+		background: 'var(--color-primary-400)',
+		color: 'var(--color-gray-100)',
 		border: 'none'
 	}} {...rest} />
 }
