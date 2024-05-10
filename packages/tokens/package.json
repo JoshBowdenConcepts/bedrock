@@ -4,7 +4,7 @@
   "author": "Josh Bowden",
   "main": "./dist/index.js",
   "scripts": {
-    "build:theme": "rm -rf dist && tsc",
+    "build:theme": "rm -rf dist && pnpm build:css && tsc && mkdir ./dist/css && cp ./css/tokens.css ./dist/css/tokens.css",
     "build:css": "npx ts-node generators/cssGenerator.ts",
     "start": "npx ts-node index.ts",
     "postinstall": "pnpm build"

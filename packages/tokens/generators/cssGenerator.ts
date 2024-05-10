@@ -2,8 +2,6 @@ import { bento } from '../index'
 import fs from 'fs';
 import path from 'path'
 
-console.log('hi', bento)
-
 // Function to convert object to CSS tokens
 function objectToCss(object: Record<string, any>, mode?: 'light' | 'dark', prefix = '') {
 	return Object.entries(object)

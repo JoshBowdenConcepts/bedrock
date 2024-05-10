@@ -20,6 +20,7 @@ enum ColorModes {
 }
 
 export type ColorByMode = EnumKeys<typeof ColorModes>;
+export type LevelColorByMode = {[key: number]: ColorByMode}
 
 /*
 SPACING - Section Two
