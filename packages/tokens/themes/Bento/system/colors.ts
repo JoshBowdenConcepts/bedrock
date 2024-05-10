@@ -1,8 +1,14 @@
-import { SystemColors } from '../../../ThemeType';
-import { color as referenceColor } from '../colors';
+import { ColorByMode } from '../../../ThemeType';
+import { raw } from '../raw_colors';
 
-export const systemColors: SystemColors = {
-  primary: referenceColor.blue,
-  secondary: referenceColor.red,
-  tertiary: referenceColor.green,
+export type PrimitiveColors = {
+	primary: ColorByMode;
+	secondary: ColorByMode;
+	tertiary: ColorByMode;
+};
+
+export const color: PrimitiveColors = {
+  primary: raw.blue,
+  secondary: raw.red,
+  tertiary: raw.green,
 };

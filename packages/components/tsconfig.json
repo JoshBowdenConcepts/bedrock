@@ -2,11 +2,11 @@
 	"compilerOptions": {
 		"jsx": "react-jsx",
 		"esModuleInterop": true,
-		"allowSyntheticDefaultImports": true,
 		"module": "CommonJS",
 		"outDir": "./dist",
 		"declaration": true,
-		"skipLibCheck": true
+		"skipLibCheck": true,
+		"allowJs": true
 	},
 	"include": ["."],
 	"exclude": ["dist", "node_modules", "**/*.spec.ts", "**/*.spec.tsx"]

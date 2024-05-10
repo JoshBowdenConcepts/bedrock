@@ -1,6 +1,2 @@
-export const bento = {
-	color: {
-		primary: 'blue'
-	}
-}
+export * from './themes/Bento'
 

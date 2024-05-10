@@ -4,12 +4,13 @@
   "author": "Josh Bowden",
   "main": "./dist/index.js",
   "scripts": {
-	"build:theme": "rm -rf dist && tsc",
-    "build": "npx ts-node index.ts",
+    "build:theme": "rm -rf dist && tsc",
+    "build:css": "npx ts-node generators/cssGenerator.ts",
     "start": "npx ts-node index.ts",
     "postinstall": "pnpm build"
   },
   "devDependencies": {
+    "@types/node": "^20.12.11",
     "ts-node": "^10.9.1",
     "typescript": "^5.3.3"
   },

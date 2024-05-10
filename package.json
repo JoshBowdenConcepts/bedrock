@@ -5,6 +5,7 @@
   "scripts": {
     "build": "pnpm run -r build",
 	"dev": "pnpm run --filter tokens build:theme && pnpm run --filter components build && pnpm run --filter public dev",
+	"css": "pnpm run --filter tokens build:css",
 	"theme": "pnpm run -r build:theme"
   },
   "repository": {
